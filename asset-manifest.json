@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/loyalties-home-page/static/css/main.d51dbc33.css",
+    "main.js": "/loyalties-home-page/static/js/main.7a22a21c.js",
+    "static/js/453.050fc1c0.chunk.js": "/loyalties-home-page/static/js/453.050fc1c0.chunk.js",
+    "index.html": "/loyalties-home-page/index.html",
+    "main.d51dbc33.css.map": "/loyalties-home-page/static/css/main.d51dbc33.css.map",
+    "main.7a22a21c.js.map": "/loyalties-home-page/static/js/main.7a22a21c.js.map",
+    "453.050fc1c0.chunk.js.map": "/loyalties-home-page/static/js/453.050fc1c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d51dbc33.css",
+    "static/js/main.7a22a21c.js"
+  ]
+}
