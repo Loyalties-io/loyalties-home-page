@@ -1,0 +1,17 @@
+.top-nav {
+  background-color: #f6f5f0;
+  margin-bottom: 24px;
+}
+
+.navbar-link {
+  color: #000;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.38px;
+}
+
+.nav-button {
+  margin-left: 10px;
+}
