@@ -24,6 +24,10 @@ function App() {
           path="/"
           element={<Home handleModalClick={handleModalClick} />}
         />
+        <Route
+          path="/loyalties-home-page"
+          element={<Home handleModalClick={handleModalClick} />}
+        />
         <Route path="/about" element={<About />} />
         <Route path="/imprint" element={<Imprint />} />
         <Route path="/terms" element={<Terms />} />
