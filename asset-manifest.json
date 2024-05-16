@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/loyalties-landing/static/css/main.d51dbc33.css",
-    "main.js": "/loyalties-landing/static/js/main.89e5aaa3.js",
-    "static/js/453.55515d9a.chunk.js": "/loyalties-landing/static/js/453.55515d9a.chunk.js",
-    "index.html": "/loyalties-landing/index.html",
-    "main.d51dbc33.css.map": "/loyalties-landing/static/css/main.d51dbc33.css.map",
-    "main.89e5aaa3.js.map": "/loyalties-landing/static/js/main.89e5aaa3.js.map",
-    "453.55515d9a.chunk.js.map": "/loyalties-landing/static/js/453.55515d9a.chunk.js.map"
+    "main.css": "/loyalties-home-page/static/css/main.d51dbc33.css",
+    "main.js": "/loyalties-home-page/static/js/main.8968a859.js",
+    "static/js/453.050fc1c0.chunk.js": "/loyalties-home-page/static/js/453.050fc1c0.chunk.js",
+    "index.html": "/loyalties-home-page/index.html",
+    "main.d51dbc33.css.map": "/loyalties-home-page/static/css/main.d51dbc33.css.map",
+    "main.8968a859.js.map": "/loyalties-home-page/static/js/main.8968a859.js.map",
+    "453.050fc1c0.chunk.js.map": "/loyalties-home-page/static/js/453.050fc1c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d51dbc33.css",
-    "static/js/main.89e5aaa3.js"
+    "static/js/main.8968a859.js"
   ]
 }
