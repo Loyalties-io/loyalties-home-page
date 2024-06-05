@@ -17,16 +17,15 @@ const Terms = () => (
         <div className="page-section">
           <p className="page-section-heading">General</p>
           <p>
-            mmmh.studio AG (hereinafter referred to as “Loyalties”) provides
-            software for mobile devices (hereinafter referred to as “App”) that
-            allows users to digitally collect, manage, and receive offers for
-            loyalty cards.
+            <strong>mmmh AG</strong> (hereinafter referred to as “Loyalties”)
+            provides software for mobile devices (hereinafter referred to as
+            “App”) that allows users to digitally collect, manage, and receive
+            offers for loyalty cards.
           </p>
           <p>
             If contracts are concluded between users and Loyalties for the
             services provided by Loyalties,{" "}
           </p>
-          {/* <p>Address etc</p> */}
           <p>
             These terms of use form the basis of the legal relationship between
             Loyalties and users of services provided via Loyalties websites or
