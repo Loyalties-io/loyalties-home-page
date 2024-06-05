@@ -24,8 +24,17 @@ const Terms = () => (
           </p>
           <p>
             If contracts are concluded between users and Loyalties for the
-            services provided by Loyalties,{" "}
+            services provided by Loyalties,
           </p>
+          <p>
+            <strong>mmmh AG</strong>
+          </p>
+          <p>Fledhof 12</p>
+          <p>6300 Zug</p>
+          <p>Switzerland</p>
+          <p>CHE-201.571.803 MWST</p>
+          <p>Email: contact@mmmh.studio</p>
+          <p>is the contracting party.</p>
           <p>
             These terms of use form the basis of the legal relationship between
             Loyalties and users of services provided via Loyalties websites or
@@ -289,11 +298,11 @@ const Terms = () => (
         <div className="page-section">
           <p className="page-section-heading">11. Final Provisions</p>
           <p>
-            (1) These terms and conditions are subject to the law of the Federal
-            Republic of Germany. The choice of law applies to users who are
-            consumers only insofar as the protection granted by mandatory
-            provisions of the law of the country in which the user has his
-            habitual residence is not withdrawn.
+            (1) These terms and conditions are subject to the law of the Swiss
+            Confederation. The choice of law applies to users who are consumers
+            only insofar as the protection granted by mandatory provisions of
+            the law of the country in which the user has his habitual residence
+            is not withdrawn.
           </p>
           <p>
             (2) Should one or more provisions of this agreement be or become
