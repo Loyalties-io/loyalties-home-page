@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import InstagramLogo from "../assets/instagram.svg";
 
 const navbar = (props) => (
   <Navbar collapseOnSelect expand="lg" sticky="top" className="top-nav">
@@ -15,12 +16,22 @@ const navbar = (props) => (
           alt="Loyalties logo"
         />
       </Navbar.Brand>
-      <button
-        className="primary-button nav-button"
-        onClick={props.handleModalClick}
-      >
-        Join now
-      </button>
+      <div>
+        <a
+          href="https://www.instagram.com/loyalties.io/"
+          target="_blank"
+          rel="noreferrer"
+          className="instagram-logo"
+        >
+          <img src={InstagramLogo} alt="Instagram" width="24" />
+        </a>
+        <button
+          className="primary-button nav-button"
+          onClick={props.handleModalClick}
+        >
+          Join now
+        </button>
+      </div>
       {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto"></Nav>

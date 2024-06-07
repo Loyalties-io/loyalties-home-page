@@ -1,6 +1,10 @@
 .top-nav {
   background-color: #f6f5f0;
   margin-bottom: 24px;
+
+  .instagram-logo {
+    margin-right: 20px;
+  }
 }
 
 .navbar-link {

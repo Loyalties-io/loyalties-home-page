@@ -11,13 +11,14 @@ const modal = (props) => {
     >
       <Modal.Body className="modal-content">
         <h2>Join the community!</h2>
-        <a href="#">
+        <h3>App coming soon...</h3>
+        {/* <a href="#">
           <img
             src="https://test-public-bucket-loy.s3.eu-central-1.amazonaws.com/app-store.png"
             alt="app store"
             width="140"
           />
-        </a>
+        </a> */}
         <p>
           Are you a business looking to use Loyalties? <br />
           Email us <a href="mailto:contact@mmmh.studio">contact@mmmh.studio</a>
