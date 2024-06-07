@@ -1,5 +1,4 @@
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
@@ -32,24 +31,6 @@ const navbar = (props) => (
           Join now
         </button>
       </div>
-      {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="me-auto"></Nav>
-        <Nav>
-          <Nav.Link as={Link} to="/about" className="navbar-link">
-            About
-          </Nav.Link>
-          <Nav.Link as={Link} to="/" className="navbar-link">
-            Businesses
-          </Nav.Link>
-          <button
-            className="primary-button nav-button"
-            onClick={props.handleModalClick}
-          >
-            Join now
-          </button>
-        </Nav>
-      </Navbar.Collapse> */}
     </Container>
   </Navbar>
 );
