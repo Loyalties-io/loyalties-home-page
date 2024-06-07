@@ -21,7 +21,8 @@ const modal = (props) => {
         </a> */}
         <p>
           Are you a business looking to use Loyalties? <br />
-          Email us <a href="mailto:contact@mmmh.studio">contact@mmmh.studio</a>
+          Email us{" "}
+          <a href="mailto:contact@loyalties.io">contact@loyalties.io</a>
         </p>
         <button className="primary-button" onClick={props.onHide}>
           Close

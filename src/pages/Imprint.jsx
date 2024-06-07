@@ -13,8 +13,7 @@ const Imprint = () => (
           <p>6300 Zug</p>
           <p>Switzerland</p>
           <p>CHE-201.571.803 MWST</p>
-          <p>Email: contact@mmmh.studo</p>
-          <p>Phone: 1234567890</p>
+          <p>Email: contact@loyalties.io</p>
         </div>
       </div>
     </Row>
