@@ -20,13 +20,14 @@ const Privacy = () => (
           <p className="page-section-heading">1. Information Collection</p>
           <p>
             The App does not collect personal information upon download. Upon
-            installation, the device is issued a unique identifier used for
-            authentication purposes. This key is stored securely on the device.
+            installation, the device is issued a set of keys used for
+            authentication purposes. These keys are stored securely on the
+            device.
           </p>
           <p>
-            Personal information, such as email and password, is collected if a
-            user chooses to sign up for an account either manually or through
-            Apple / Google authentication.
+            Personal information, such as email, is collected if a user chooses
+            to sign up for an account either manually or through Apple / Google
+            authentication.
           </p>
         </div>
 
@@ -58,7 +59,6 @@ const Privacy = () => (
           <p className="page-section-heading">
             4. Information Storage and Security
           </p>
-
           <p>
             Personal information collected by the App is stored securely in a
             cloud database. All data transmission between the App and the server
@@ -78,9 +78,9 @@ const Privacy = () => (
             App from the device results in certain data being removed.
           </p>
           <p>
-            If a user account exists, a request for deletion may be sent to
-            contact@mmmh.studio. We will promptly respond to such requests in
-            accordance with applicable laws and regulations.
+            If a user account with email exists, a request for deletion may be
+            sent to contact@loyalties.io. We will promptly respond to such
+            requests in accordance with applicable laws and regulations.
           </p>
         </div>
 
@@ -112,7 +112,7 @@ const Privacy = () => (
           <p>
             If you have any questions or concerns about our Privacy Policy or
             wish to exercise your data subject rights, please contact us at
-            contact@mmmh.studio.
+            contact@loyalties.io.
           </p>
         </div>
       </div>
