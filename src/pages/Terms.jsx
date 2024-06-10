@@ -9,8 +9,8 @@ const Terms = () => (
       <div className="page-text-container">
         <div className="page-section">
           <p>
-            Terms of Service for the use of the websites and mobile phone
-            services of Loyalties.
+            Terms of Service for the use of the websites and mobile app services
+            of Loyalties.
           </p>
         </div>
 
@@ -20,7 +20,7 @@ const Terms = () => (
             <strong>mmmh AG</strong> (hereinafter referred to as “Loyalties”)
             provides software for mobile devices (hereinafter referred to as
             “App”) that allows users to digitally collect, manage, and receive
-            offers for loyalty cards.
+            offers for loyalty programs.
           </p>
           <p>
             If contracts are concluded between users and Loyalties for the
