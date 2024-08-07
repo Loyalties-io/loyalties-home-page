@@ -31,3 +31,12 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 768px) {
+  .download-wrapper {
+    img:first-of-type {
+      margin-bottom: 20px;
+      width: 160px;
+    }
+  }
+}
