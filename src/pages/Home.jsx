@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./Pages.css";
+import { Link } from "react-router-dom";
 
 const Home = (props) => (
   <Container>
@@ -53,6 +54,9 @@ const Home = (props) => (
             targeted marketing campaigns and direct offers. Access analytics for
             informed decisions, improving program effectiveness.
           </p>
+          <Link className="primary-button" to="/business">
+            Learn more
+          </Link>
         </div>
       </Col>
     </Row>

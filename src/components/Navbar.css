@@ -2,17 +2,12 @@
   background-color: #f6f5f0;
   margin-bottom: 24px;
 
-  .brand-wrapper {
-    display: flex;
-    align-items: center;
+  .nav-button {
+    margin-left: 24px;
   }
 
   .business-link {
-    margin-left: 40px;
-  }
-
-  .instagram-logo {
-    margin-right: 20px;
+    margin-left: 48px;
   }
 }
 
@@ -25,6 +20,19 @@
   letter-spacing: -1.38px;
 }
 
-.nav-button {
-  margin-left: 10px;
+@media (max-width: 991px) {
+  #responsive-navbar-nav {
+    margin-top: 24px;
+  }
+
+  .top-nav {
+    .business-link {
+      margin-left: 0;
+      margin-bottom: 18px;
+    }
+
+    .nav-button {
+      display: none;
+    }
+  }
 }
