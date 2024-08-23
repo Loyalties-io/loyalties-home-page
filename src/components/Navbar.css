@@ -2,6 +2,15 @@
   background-color: #f6f5f0;
   margin-bottom: 24px;
 
+  .brand-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .business-link {
+    margin-left: 40px;
+  }
+
   .instagram-logo {
     margin-right: 20px;
   }
@@ -9,7 +18,7 @@
 
 .navbar-link {
   color: #000;
-  font-size: 23px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;

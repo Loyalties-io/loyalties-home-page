@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Imprint from "./pages/Imprint";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
+import Business from "./pages/Business";
 import Modal from "./components/Modal";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/imprint" element={<Imprint />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/business" element={<Business />} />
         {/* <Route path="*" element={<NotFoundPage />} /> */}
       </Routes>
       <Modal show={modalShow} onHide={() => setModalShow(false)} />
