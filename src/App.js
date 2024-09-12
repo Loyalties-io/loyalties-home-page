@@ -33,7 +33,10 @@ function App() {
         <Route path="/imprint" element={<Imprint />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
-        <Route path="/business" element={<Business />} />
+        <Route
+          path="/business"
+          element={<Business handleModalClick={handleModalClick} />}
+        />
         {/* <Route path="*" element={<NotFoundPage />} /> */}
       </Routes>
       <Modal show={modalShow} onHide={() => setModalShow(false)} />

@@ -1,0 +1,22 @@
+.secondary-heading {
+  font-size: 55px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.why-item {
+  text-align: center;
+  padding: 0 40px;
+}
+
+@media (max-width: 1200px) {
+  .why-item {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .why-item {
+    margin-bottom: 10px;
+  }
+}
