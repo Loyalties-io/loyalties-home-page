@@ -17,14 +17,14 @@ const Home = (props) => (
             without the hassle of managing multiple loyalty programs or juggling
             paper cards.
           </p>
-          {/* <button className="primary-button" onClick={props.handleModalClick}>
-            Join the community!
-          </button> */}
+          <button className="primary-button" onClick={props.handleModalClick}>
+            Get in touch
+          </button>
         </div>
       </Col>
       <Col lg={6} className="d-none d-lg-block d-sm-none">
         <img
-          src="https://test-public-bucket-loy.s3.eu-central-1.amazonaws.com/bg-1.png"
+          src="https://test-public-bucket-loy.s3.eu-central-1.amazonaws.com/bg-2.png"
           alt="placeholder"
           className="img-fluid"
         />
@@ -33,7 +33,7 @@ const Home = (props) => (
     <Row className="align-items-center page-section">
       <Col lg={6}>
         <img
-          src="https://test-public-bucket-loy.s3.eu-central-1.amazonaws.com/bg-2.png"
+          src="https://test-public-bucket-loy.s3.eu-central-1.amazonaws.com/business-bg-2.jpg"
           alt="placeholder"
           className="img-fluid middle-img"
         />
@@ -127,7 +127,7 @@ const Home = (props) => (
       </Col>
       <Col lg={6}>
         <img
-          src="https://test-public-bucket-loy.s3.eu-central-1.amazonaws.com/bg-3.png"
+          src="https://test-public-bucket-loy.s3.eu-central-1.amazonaws.com/business-bg-3.jpg"
           alt="placeholder"
           className="img-fluid"
         />
@@ -140,7 +140,7 @@ const Home = (props) => (
           <h2>Interested in learning more?</h2>
           <p>
             We’d love to chat about how Loyalties can benefit your business.
-            Reach out to us at contact@loyalties.io, and let’s start a
+            Reach out to us at <b>contact@loyalties.io</b>, and let’s start a
             conversation about how we can help you build stronger customer
             relationships.
           </p>
