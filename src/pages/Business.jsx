@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import "./Pages.css";
 import "./Business.css";
 
-const Home = (props) => (
+const Business = (props) => (
   <Container>
     <Row className="align-items-center page-section">
       <Col lg={6} className="justify-content-center">
@@ -150,4 +150,4 @@ const Home = (props) => (
   </Container>
 );
 
-export default Home;
+export default Business;
