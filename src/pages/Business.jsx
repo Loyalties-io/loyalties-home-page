@@ -117,11 +117,10 @@ const Business = (props) => (
         <div className="text-wrapper">
           <h2>Get Started with Loyalties</h2>
           <p>
-            We’re currently offering Loyalties for free for the first three
-            months to businesses that join our testing phase. This is a unique
-            opportunity to influence the development of a tool that meets your
-            specific needs, while also benefiting from early access to a
-            powerful customer retention platform.
+            We’re currently offering Loyalties at no cost for a limited time to
+            businesses that join our testing phase. This is a unique opportunity
+            to shape a tool that meets your specific needs, while also gaining
+            early access to a powerful customer retention platform.
           </p>
         </div>
       </Col>
