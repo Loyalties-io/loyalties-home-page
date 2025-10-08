@@ -28,7 +28,7 @@ const Footer = () => {
               </Nav.Link>
             </div>
             <div>
-              <p className="copyright">2024 Loyalties</p>
+              <p className="copyright">{new Date().getFullYear()} Loyalties</p>
             </div>
           </div>
         </Nav>
