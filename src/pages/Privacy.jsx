@@ -1,20 +1,26 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import { AnimatedText } from "../components/AnimatedComponents";
+import "./Pages.css";
 
 const Privacy = () => (
   <Container>
     <Row>
-      <h1 className="page-heading">Privacy policy</h1>
+      <AnimatedText>
+        <h1 className="page-heading">Privacy policy</h1>
+      </AnimatedText>
       <div className="page-text-container">
-        <div className="page-section">
-          <p>
-            With this Privacy Policy, we would like to give you an overview of
-            the processing of your personal data within the scope of the
-            installation and usage of the "Loyalties" mobile application
-            (hereinafter referred to as the “App”).
-          </p>
-        </div>
+        <AnimatedText delay={150}>
+          <div className="page-section">
+            <p>
+              With this Privacy Policy, we would like to give you an overview of
+              the processing of your personal data within the scope of the
+              installation and usage of the "Loyalties" mobile application
+              (hereinafter referred to as the "App").
+            </p>
+          </div>
+        </AnimatedText>
 
         <div className="page-section">
           <p className="page-section-heading">1. Information Collection</p>

@@ -48,6 +48,38 @@
   }
 }
 
+/* Animation styles */
+.animated-text,
+.animated-image,
+.animated-why-item {
+  opacity: 0;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animated-text {
+  transform: translateY(30px);
+}
+
+.animated-image {
+  transform: translateX(-30px);
+}
+
+.animated-image-right {
+  transform: translateX(30px);
+}
+
+.animated-why-item {
+  transform: translateY(30px);
+}
+
+.animated-text.animate-in,
+.animated-image.animate-in,
+.animated-image-right.animate-in,
+.animated-why-item.animate-in {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
 @media (max-width: 992px) {
   .page-section {
     margin-bottom: 40px;
@@ -65,5 +97,18 @@
 
   .middle-img {
     margin-bottom: 20px;
+  }
+
+  /* Reduce animation distance on mobile */
+  .animated-text {
+    transform: translateY(20px);
+  }
+
+  .animated-image {
+    transform: translateX(-20px);
+  }
+
+  .animated-image-right {
+    transform: translateX(20px);
   }
 }

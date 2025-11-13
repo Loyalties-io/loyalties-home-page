@@ -1,47 +1,55 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import { AnimatedText } from "../components/AnimatedComponents";
+import "./Pages.css";
 
 const Terms = () => (
   <Container>
     <Row>
-      <h1 className="page-heading">Terms & Conditions</h1>
+      <AnimatedText>
+        <h1 className="page-heading">Terms & Conditions</h1>
+      </AnimatedText>
       <div className="page-text-container">
-        <div className="page-section">
-          <p>
-            Terms of Service for the use of the websites and mobile app services
-            of Loyalties.
-          </p>
-        </div>
+        <AnimatedText delay={150}>
+          <div className="page-section">
+            <p>
+              Terms of Service for the use of the websites and mobile app services
+              of Loyalties.
+            </p>
+          </div>
+        </AnimatedText>
 
-        <div className="page-section">
-          <p className="page-section-heading">General</p>
-          <p>
-            <strong>mmmh AG</strong> (hereinafter referred to as “Loyalties”)
-            provides software for mobile devices (hereinafter referred to as
-            “App”) that allows users to digitally collect, manage, and receive
-            offers for loyalty programs.
-          </p>
-          <p>
-            If contracts are concluded between users and Loyalties for the
-            services provided by Loyalties,
-          </p>
-          <p>
-            <strong>mmmh AG</strong>
-          </p>
-          <p>Fledhof 12</p>
-          <p>6300 Zug</p>
-          <p>Switzerland</p>
-          <p>CHE-201.571.803 MWST</p>
-          <p>Email: contact@mmmh.studio</p>
-          <p>is the contracting party.</p>
-          <p>
-            These terms of use form the basis of the legal relationship between
-            Loyalties and users of services provided via Loyalties websites or
-            mobile services for mobile devices (phone, smartphone, PDA, etc.)
-            after downloading (hereinafter referred to as Loyalties services).
-          </p>
-        </div>
+        <AnimatedText delay={300}>
+          <div className="page-section">
+            <p className="page-section-heading">General</p>
+            <p>
+              <strong>mmmh AG</strong> (hereinafter referred to as "Loyalties")
+              provides software for mobile devices (hereinafter referred to as
+              "App") that allows users to digitally collect, manage, and receive
+              offers for loyalty programs.
+            </p>
+            <p>
+              If contracts are concluded between users and Loyalties for the
+              services provided by Loyalties,
+            </p>
+            <p>
+              <strong>mmmh AG</strong>
+            </p>
+            <p>Fledhof 12</p>
+            <p>6300 Zug</p>
+            <p>Switzerland</p>
+            <p>CHE-201.571.803 MWST</p>
+            <p>Email: contact@mmmh.studio</p>
+            <p>is the contracting party.</p>
+            <p>
+              These terms of use form the basis of the legal relationship between
+              Loyalties and users of services provided via Loyalties websites or
+              mobile services for mobile devices (phone, smartphone, PDA, etc.)
+              after downloading (hereinafter referred to as Loyalties services).
+            </p>
+          </div>
+        </AnimatedText>
 
         <div className="page-section">
           <p className="page-section-heading">1. Scope</p>
