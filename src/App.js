@@ -11,6 +11,7 @@ import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
 import Business from "./pages/Business";
 import Modal from "./components/Modal";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [modalShow, setModalShow] = React.useState(false);
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <Navbar handleModalClick={handleModalClick} />
       <Routes>
         <Route
@@ -37,7 +39,6 @@ function App() {
           path="/business"
           element={<Business handleModalClick={handleModalClick} />}
         />
-        {/* <Route path="*" element={<NotFoundPage />} /> */}
       </Routes>
       <Modal show={modalShow} onHide={() => setModalShow(false)} />
       <Footer />
