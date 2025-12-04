@@ -1,12 +1,12 @@
 .secondary-heading {
-  font-size: 55px;
+  font-size: 50px;
   margin-bottom: 50px;
   text-align: center;
 }
 
-.why-items-row {
+/* .why-items-row {
   align-items: stretch;
-}
+} */
 
 .why-items-row .col.why-item,
 .why-items-row [class*="col-"].why-item {
@@ -31,10 +31,12 @@
 }
 
 .why-item-content h2 {
+  font-size: 30px;
   margin-bottom: 15px;
 }
 
 .why-item-content p {
+  font-size: 22px;
   flex-grow: 1;
   margin-bottom: 0;
 }
@@ -45,7 +47,7 @@
 }
 
 .why-item-icon {
-  font-size: 48px;
+  font-size: 30px;
   color: #000;
   margin-bottom: 20px;
   display: flex;

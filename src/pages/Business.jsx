@@ -9,7 +9,13 @@ import {
   AnimatedImage,
   AnimatedWhyItem,
 } from "../components/AnimatedComponents";
-import { FaCog, FaBullhorn, FaChartLine, FaNetworkWired, FaMobileAlt } from "react-icons/fa";
+import {
+  FaCog,
+  FaBullhorn,
+  FaChartLine,
+  FaNetworkWired,
+  FaMobileAlt,
+} from "react-icons/fa";
 
 const Business = (props) => (
   <Container>
@@ -84,9 +90,9 @@ const Business = (props) => (
             </div>
             <h2>Customizable Loyalty Programs</h2>
             <p>
-              Tailor your loyalty programs to fit your business. Offer discounts,
-              free items, or exclusive deals that resonate with your customers and
-              encourage repeat visits.
+              Tailor your loyalty programs to fit your business. Offer
+              discounts, free items, or exclusive deals that resonate with your
+              customers and encourage repeat visits.
             </p>
           </div>
         </AnimatedWhyItem>
@@ -128,12 +134,7 @@ const Business = (props) => (
       </Col>
     </Row>
     <Row className="page-section why-items-row">
-      <Col
-        className="why-item"
-        lg={{ span: 4, offset: 2 }}
-        md={8}
-        xs={12}
-      >
+      <Col className="why-item" lg={{ span: 4, offset: 2 }} md={8} xs={12}>
         <AnimatedWhyItem delay={0}>
           <div className="why-item-content">
             <div className="why-item-icon">
@@ -144,9 +145,9 @@ const Business = (props) => (
               Growing Network
             </h2>
             <p>
-              Loyalties connects you with a community of local businesses that are
-              committed to enhancing customer experiences and supporting each
-              other.
+              Loyalties connects you with a community of local businesses that
+              are committed to enhancing customer experiences and supporting
+              each other.
             </p>
           </div>
         </AnimatedWhyItem>
