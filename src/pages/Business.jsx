@@ -181,11 +181,11 @@ const Business = (props) => (
           </AnimatedText>
           <AnimatedText delay={150}>
             <p>
-              We're currently offering Loyalties at no cost for a limited time
-              to businesses that join our testing phase. This is a unique
-              opportunity to shape a tool that meets your specific needs, while
-              also gaining early access to a powerful customer retention
-              platform.
+              Start with a free 30-day trial to experience all the features of
+              Loyalties. After your trial, continue with our affordable plan at
+              just €25 per month. We're still in our early days, and we'll work
+              closely together to shape the tools and features that best meet
+              your specific needs.
             </p>
           </AnimatedText>
         </div>
