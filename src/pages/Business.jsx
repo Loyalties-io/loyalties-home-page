@@ -9,6 +9,7 @@ import {
   AnimatedImage,
   AnimatedWhyItem,
 } from "../components/AnimatedComponents";
+import { FaCog, FaBullhorn, FaChartLine, FaNetworkWired, FaMobileAlt } from "react-icons/fa";
 
 const Business = (props) => (
   <Container>
@@ -71,77 +72,102 @@ const Business = (props) => (
         </div>
       </Col>
     </Row>
-    <Row className="page-section no-margin">
+    <Row className="page-section no-margin why-items-row">
       <AnimatedText>
         <h1 className="secondary-heading">Why Choose Loyalties?</h1>
       </AnimatedText>
-      <Col className="why-item mx-auto" lg={4} md={8} xs={12}>
+      <Col className="why-item" lg={4} md={8} xs={12}>
         <AnimatedWhyItem delay={0}>
-          <h2>Customizable Loyalty Programs</h2>
-          <p>
-            Tailor your loyalty programs to fit your business. Offer discounts,
-            free items, or exclusive deals that resonate with your customers and
-            encourage repeat visits.
-          </p>
+          <div className="why-item-content">
+            <div className="why-item-icon">
+              <FaCog />
+            </div>
+            <h2>Customizable Loyalty Programs</h2>
+            <p>
+              Tailor your loyalty programs to fit your business. Offer discounts,
+              free items, or exclusive deals that resonate with your customers and
+              encourage repeat visits.
+            </p>
+          </div>
         </AnimatedWhyItem>
       </Col>
-      <Col className="why-item mx-auto" lg={4} md={8} xs={12}>
+      <Col className="why-item" lg={4} md={8} xs={12}>
         <AnimatedWhyItem delay={150}>
-          <h2>
-            Promote <br />
-            Special Offers
-          </h2>
-          <p>
-            Easily push targeted offers to your customers to drive traffic
-            during slower times or highlight new products and services.
-          </p>
+          <div className="why-item-content">
+            <div className="why-item-icon">
+              <FaBullhorn />
+            </div>
+            <h2>
+              Promote <br />
+              Special Offers
+            </h2>
+            <p>
+              Easily push targeted offers to your customers to drive traffic
+              during slower times or highlight new products and services.
+            </p>
+          </div>
         </AnimatedWhyItem>
       </Col>
-      <Col className="why-item mx-auto" lg={4} md={8} xs={12}>
+      <Col className="why-item" lg={4} md={8} xs={12}>
         <AnimatedWhyItem delay={300}>
-          <h2>
-            Gain <br />
-            Valuable Insights
-          </h2>
-          <p>
-            Our analytics tools provide you with detailed data on customer
-            behavior, helping you make informed decisions that boost your
-            business.
-          </p>
+          <div className="why-item-content">
+            <div className="why-item-icon">
+              <FaChartLine />
+            </div>
+            <h2>
+              Gain <br />
+              Valuable Insights
+            </h2>
+            <p>
+              Our analytics tools provide you with detailed data on customer
+              behavior, helping you make informed decisions that boost your
+              business.
+            </p>
+          </div>
         </AnimatedWhyItem>
       </Col>
     </Row>
-    <Row className="page-section">
+    <Row className="page-section why-items-row">
       <Col
-        className="why-item mx-auto"
-        lg={{ span: 5, offset: 1 }}
+        className="why-item"
+        lg={{ span: 4, offset: 2 }}
         md={8}
         xs={12}
       >
         <AnimatedWhyItem delay={0}>
-          <h2>
-            Join a <br />
-            Growing Network
-          </h2>
-          <p>
-            Loyalties connects you with a community of local businesses that are
-            committed to enhancing customer experiences and supporting each
-            other.
-          </p>
+          <div className="why-item-content">
+            <div className="why-item-icon">
+              <FaNetworkWired />
+            </div>
+            <h2>
+              Join a <br />
+              Growing Network
+            </h2>
+            <p>
+              Loyalties connects you with a community of local businesses that are
+              committed to enhancing customer experiences and supporting each
+              other.
+            </p>
+          </div>
         </AnimatedWhyItem>
       </Col>
-      <Col className="why-item mx-auto" lg={5} md={8} xs={12}>
+      <Col className="why-item" lg={4} md={8} xs={12}>
         <AnimatedWhyItem delay={200}>
-          <h2>
-            One App, <br />
-            Multiple Benefits
-          </h2>
-          <p>
-            With Loyalties, your customers only need one app to access loyalty
-            programs and offers from all participating businesses. No matter
-            what type of business you run, Loyalties makes it easy to reward
-            your customers and keep them coming back.
-          </p>
+          <div className="why-item-content">
+            <div className="why-item-icon">
+              <FaMobileAlt />
+            </div>
+            <h2>
+              One App, <br />
+              Multiple Benefits
+            </h2>
+            <p>
+              With Loyalties, your customers only need one app to access loyalty
+              programs and offers from all participating businesses. No matter
+              what type of business you run, Loyalties makes it easy to reward
+              your customers and keep them coming back.
+            </p>
+          </div>
         </AnimatedWhyItem>
       </Col>
     </Row>
