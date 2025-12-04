@@ -5,7 +5,7 @@ import { AnimatedText } from "../components/AnimatedComponents";
 import "./Pages.css";
 
 const Imprint = () => (
-  <Container>
+  <Container className="imprint-page">
     <Row>
       <AnimatedText>
         <h1 className="page-heading">Imprint</h1>

@@ -29,6 +29,12 @@
   margin-bottom: 80px;
 }
 
+.home-page .first-section,
+.business-page .first-section {
+  margin-top: 60px;
+  padding-top: 40px;
+}
+
 .primary-button {
   background-color: #000;
   color: #f6f5f0;
@@ -83,6 +89,12 @@
 @media (max-width: 992px) {
   .page-section {
     margin-bottom: 40px;
+  }
+
+  .home-page .first-section,
+  .business-page .first-section {
+    margin-top: 40px;
+    padding-top: 30px;
   }
 
   .no-margin {

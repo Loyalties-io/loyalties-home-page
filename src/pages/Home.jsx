@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 import { AnimatedText, AnimatedImage } from "../components/AnimatedComponents";
 
 const Home = (props) => (
-  <Container>
-    <Row className="align-items-center page-section">
+  <Container className="home-page">
+    <Row className="align-items-center page-section first-section">
       <Col lg={6} className="justify-content-center">
         <div className="text-wrapper">
           <AnimatedText>

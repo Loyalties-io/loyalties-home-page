@@ -18,8 +18,8 @@ import {
 } from "react-icons/fa";
 
 const Business = (props) => (
-  <Container>
-    <Row className="align-items-center page-section">
+  <Container className="business-page">
+    <Row className="align-items-center page-section first-section">
       <Col lg={6} className="justify-content-center">
         <div className="text-wrapper">
           <AnimatedText>

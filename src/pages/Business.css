@@ -28,17 +28,23 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
 .why-item-content h2 {
   font-size: 30px;
   margin-bottom: 15px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .why-item-content p {
   font-size: 22px;
   flex-grow: 1;
   margin-bottom: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .why-item-content:hover {
@@ -62,16 +68,29 @@
 }
 
 @media (max-width: 992px) {
+  .secondary-heading {
+    font-size: 35px;
+  }
+
   .why-item {
     margin-bottom: 30px;
+    padding: 0 15px;
   }
 
   .why-item-content {
-    padding: 25px 15px;
+    padding: 20px 15px;
+  }
+
+  .why-item-content h2 {
+    font-size: 24px;
+  }
+
+  .why-item-content p {
+    font-size: 18px;
   }
 
   .why-item-icon {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 15px;
   }
 }
