@@ -1,0 +1,122 @@
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background-color: #fff;
+  border-top: 1px solid #e5e7eb;
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+  font-family: "Inter", sans-serif;
+}
+
+.cookie-banner-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+.cookie-banner-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .cookie-banner-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.cookie-banner-text {
+  flex: 1;
+}
+
+.cookie-banner-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0.5rem;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -1px;
+}
+
+.cookie-banner-description {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 1rem;
+  font-family: "Inter", sans-serif;
+  line-height: 150%;
+  letter-spacing: -1px;
+}
+
+@media (min-width: 1024px) {
+  .cookie-banner-description {
+    margin-bottom: 0;
+  }
+}
+
+.cookie-banner-link {
+  color: #000;
+  text-decoration: underline;
+}
+
+.cookie-banner-link:hover {
+  color: #333;
+}
+
+.cookie-banner-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .cookie-banner-buttons {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cookie-banner-buttons {
+    margin-left: 1.5rem;
+  }
+}
+
+.cookie-banner-button {
+  padding: 8px 22px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.124px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+  border: none;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.cookie-banner-button-reject {
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #d1d5db;
+}
+
+.cookie-banner-button-reject:hover {
+  background-color: #f9fafb;
+  border-color: #9ca3af;
+}
+
+.cookie-banner-button-accept {
+  background-color: #000;
+  color: #f6f5f0;
+}
+
+.cookie-banner-button-accept:hover {
+  background-color: #333;
+}
+
