@@ -78,7 +78,40 @@ const Privacy = () => (
         </div>
 
         <div className="page-section">
-          <p className="page-section-heading">6. User Control</p>
+          <p className="page-section-heading">
+            6. Cookies and Tracking Technologies
+          </p>
+          <p>
+            Our website uses cookies and similar tracking technologies to
+            analyze website traffic, understand user behavior, and improve your
+            experience. We use Google Analytics to collect and analyze usage
+            data, which helps us understand how visitors interact with our
+            website.
+          </p>
+          <p>
+            You have the right to accept or reject cookies when you first visit
+            our website. You can change your cookie preferences at any time by
+            clearing your browser cookies and revisiting our website. Please
+            note that rejecting cookies may affect your experience on our
+            website.
+          </p>
+          <p>
+            For more information about how Google uses data when you use our
+            website, please visit{" "}
+            <a
+              href="https://policies.google.com/privacy"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#1e40af", textDecoration: "underline" }}
+            >
+              Google's Privacy Policy
+            </a>
+            .
+          </p>
+        </div>
+
+        <div className="page-section">
+          <p className="page-section-heading">7. User Control</p>
           <p>
             Users can add or remove loyalty cards through the App. Deleting the
             App from the device results in certain data being removed.
@@ -91,7 +124,7 @@ const Privacy = () => (
         </div>
 
         <div className="page-section">
-          <p className="page-section-heading">7. Data Retention Policy</p>
+          <p className="page-section-heading">8. Data Retention Policy</p>
           <p>
             We retain personal data only for as long as necessary to fulfill the
             purposes outlined in this Privacy Policy or as required by law. The
@@ -105,7 +138,7 @@ const Privacy = () => (
         </div>
 
         <div className="page-section">
-          <p className="page-section-heading">8. Changes to Privacy Policy</p>
+          <p className="page-section-heading">9. Changes to Privacy Policy</p>
           <p>
             Any changes to the Privacy Policy will be communicated within the
             App. Users will be required to review and accept the updated policy
@@ -114,7 +147,7 @@ const Privacy = () => (
         </div>
 
         <div className="page-section">
-          <p className="page-section-heading">9. Contact Us</p>
+          <p className="page-section-heading">10. Contact Us</p>
           <p>
             If you have any questions or concerns about our Privacy Policy or
             wish to exercise your data subject rights, please contact us at
