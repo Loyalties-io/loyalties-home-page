@@ -13,7 +13,7 @@ import Business from "./pages/Business";
 import Modal from "./components/Modal";
 import ScrollToTop from "./components/ScrollToTop";
 // import GoogleAnalytics from "./components/GoogleAnalytics";
-import CookieBanner from "./components/CookieBanner";
+// import CookieBanner from "./components/CookieBanner";
 
 function App() {
   const [modalShow, setModalShow] = React.useState(false);
@@ -45,7 +45,7 @@ function App() {
       </Routes>
       <Modal show={modalShow} onHide={() => setModalShow(false)} />
       <Footer />
-      <CookieBanner />
+      {/* <CookieBanner /> */}
     </Router>
   );
 }
