@@ -102,7 +102,6 @@ const Privacy = () => (
               href="https://policies.google.com/privacy"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "#1e40af", textDecoration: "underline" }}
             >
               Google's Privacy Policy
             </a>
