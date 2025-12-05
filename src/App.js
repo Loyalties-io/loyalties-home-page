@@ -12,7 +12,7 @@ import Privacy from "./pages/Privacy";
 import Business from "./pages/Business";
 import Modal from "./components/Modal";
 import ScrollToTop from "./components/ScrollToTop";
-import GoogleAnalytics from "./components/GoogleAnalytics";
+// import GoogleAnalytics from "./components/GoogleAnalytics";
 import CookieBanner from "./components/CookieBanner";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <Router>
-      <GoogleAnalytics />
+      {/* <GoogleAnalytics /> */}
       <ScrollToTop />
       <Navbar handleModalClick={handleModalClick} />
       <Routes>
